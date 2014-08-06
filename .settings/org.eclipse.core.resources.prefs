@@ -1,0 +1,21 @@
+#Wed Aug 06 12:25:00 BST 2014
+base.iphone=4003800880
+base.android=154549862
+common.android=1593731414
+encoding//apps/Test2/android/css/main.css=UTF-8
+fipshttp.android=3997595860
+wl_version=6.1.0.01.20140427-1450
+eclipse.preferences.version=1
+jsonstore.android=2746434164
+analytics.ipad=639869681
+fipshttp.iphone=2674669559
+Test2.iphone.native=4003800880
+Test2.android.native=154549862-2746434164
+fipshttp.ipad=3532471817
+Test2.ipad.native=4003800880
+wl_compatible_version=6.1.0.0
+base.ipad=4003800880
+encoding//apps/Test2/common/css/main.css=UTF-8
+encoding//apps/Test2/common/index.html=UTF-8
+analytics.android=2408201680
+analytics.iphone=1580896238
