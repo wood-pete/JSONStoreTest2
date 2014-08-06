@@ -142,8 +142,7 @@
 								// Add the data to the database - need to wait for the JSONStore to be initiated!!!!
 								return WL.JSONStore
 										.get('mycustomers')
-										.findAll() //THIS IS THE IMPORTANT LINE
-										
+										.findAll()
 										.then(
 												function(res) {
 													mylog("LIST OF DATA")
@@ -165,7 +164,6 @@
 
 		}
 		
-		//THIS THE METHOD FOR QUERYING DATA - find(query,options)
 		function mydisplayquerydata() {
 		mylog("Starting displaying query data");
 		var query = {name: mysearchbox.value};
