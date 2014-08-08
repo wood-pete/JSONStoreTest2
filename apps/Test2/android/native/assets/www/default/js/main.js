@@ -22,8 +22,12 @@ function wlCommonInit(){
 	 */
 	
 	// Common initialization code goes here
+	
+	// Sets up the table/collection with the search fields
+	
 
 }
+
 
 /* JavaScript content from js/main.js in folder android */
 // This method is invoked after loading the main HTML and successful initialization of the Worklight runtime.

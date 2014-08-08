@@ -1,5 +1,6 @@
-#Wed Aug 06 18:59:21 BST 2014
+#Fri Aug 08 16:54:03 BST 2014
 base.iphone=4003800880
+encoding//apps/Test2/iphone/css/main.css=UTF-8
 base.android=154549862
 common.android=1593731414
 encoding//apps/Test2/android/css/main.css=UTF-8
@@ -15,7 +16,7 @@ fipshttp.ipad=3532471817
 Test2.ipad.native=4003800880
 wl_compatible_version=6.1.0.0
 base.ipad=4003800880
-encoding//apps/Test2/common/index.html=UTF-8
 encoding//apps/Test2/common/css/main.css=UTF-8
-analytics.iphone=1580896238
+encoding//apps/Test2/common/index.html=UTF-8
 analytics.android=2408201680
+analytics.iphone=1580896238

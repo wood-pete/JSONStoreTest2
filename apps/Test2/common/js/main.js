@@ -20,5 +20,9 @@ function wlCommonInit(){
 	 */
 	
 	// Common initialization code goes here
+	
+	// Sets up the table/collection with the search fields
+	
 
 }
+

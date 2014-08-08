@@ -18,6 +18,13 @@
         <JSONStore/>
     </features>
     <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
+    <iphone bundleId="com.Test2" version="1.0">
+        <worklightSettings include="true"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+        </security>
+    </iphone>
     <android version="1.0">
         <worklightSettings include="true"/>
         <security>
