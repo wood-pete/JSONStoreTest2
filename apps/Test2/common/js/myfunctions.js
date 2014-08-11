@@ -131,3 +131,38 @@ function mydisplayquerydata() {
 	});
 
 }
+
+function myinvokeadapter() {
+	mylog("Invoking Adapter");
+	
+		var invocationData = {
+		        adapter : 'myfirstadapter',
+		        procedure : 'mynames',
+		        parameters : []
+		    };
+
+		WL.Client.invokeProcedure(invocationData,{
+		    onSuccess : getDataSuccess,
+		    onFailure : getDataFailure,
+		});
+	
+}
+
+function getDataSuccess(result){
+// Response object is
+//	{"status":200,
+//	 "invocationContext":null,
+//	 "invocationResult":
+//			{
+//			 "responseID":"21",
+//		   	 "isSuccessful":true,
+//			 "name":"pete1"
+//			}
+//	}
+	mylog("Feed retrieve success:"+JSON.stringify(result.invocationResult.name));
+}
+
+function getDataFailure(result){
+    mylog("Feed retrieve failure");
+
+}
