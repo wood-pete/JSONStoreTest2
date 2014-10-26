@@ -5,11 +5,11 @@
 	<key>protocol</key> 
 	<string>http</string>
 	<key>host</key>
-	<string>192.168.1.88</string>
+	<string>petesworklight.cloudapp.net</string>
 	<key>port</key>
-	<string>10080</string>
+	<string>9080</string>
 	<key>wlServerContext</key>
-	<string>/JSONStoreTest2/</string>
+	<string>/worklight_1/</string>
 	<key>application id</key>
 	<string>Test2</string>
 	<key>application version</key>
@@ -29,6 +29,12 @@
 	<key>wlUid</key>
 	<string>HbqbhwjPf9h/1mlGUGQIGA==</string>			
 	<key>platformVersion</key>
-	<string>6.1.0.01.20140427-1450</string>
+	<string>6.2.0.00.20140825-1637</string>
+	<key>wlAppFamily</key>
+	<string></string>
+	<key>wlShareCookies</key>
+	<string></string>
+	<key>wlShareUserCert</key>
+	<string>false</string>
 </dict>
 </plist>

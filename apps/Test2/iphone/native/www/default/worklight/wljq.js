@@ -1331,7 +1331,7 @@ jQuery.support = (function() {
 	    });
 	} 
 	else {
-		div.innerHTML = "  <link/><table></table><a href='/a'>a</a><input type='checkbox'/>";
+		div.innerHTML = "  <link/><table></table><a href='/a'>a</a><input type='checkbox'/>"; 
 	}
 
 	// Support tests won't run in some limited or non-browser environments
@@ -1507,7 +1507,7 @@ jQuery.support = (function() {
 		    });
 		} 
 		else {
-			div.innerHTML = "<table><tr><td></td><td>t</td></tr></table>";
+			div.innerHTML = "<table><tr><td></td><td>t</td></tr></table>"; 
 		}
 		
 		tds = div.getElementsByTagName("td");
@@ -1532,7 +1532,7 @@ jQuery.support = (function() {
 		else {
 			div.innerHTML = ""; 
 		}
-		
+
 		div.style.cssText = "box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;padding:1px;border:1px;display:block;width:4px;margin-top:1%;position:absolute;top:1%;";
 		support.boxSizing = ( div.offsetWidth === 4 );
 		support.doesNotIncludeMarginInBodyOffset = ( body.offsetTop !== 1 );
@@ -1585,7 +1585,7 @@ jQuery.support = (function() {
 			    });
 			} 
 			else {
-				div.innerHTML = "<div></div>";
+				div.innerHTML = "<div></div>"; 
 			}
 			
 			div.firstChild.style.width = "5px";
@@ -4111,7 +4111,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		    });
 		} 
 		else {
-			div.innerHTML = "<select></select>"; 
+			div.innerHTML = "<select></select>";
 		}
 		
 		var type = typeof div.lastChild.getAttribute("multiple");
@@ -4133,7 +4133,6 @@ setDocument = Sizzle.setDocument = function( node ) {
 			div.innerHTML = "<div class='hidden e'></div><div class='hidden'></div>"; 
 		}
 		
-		
 		if ( !div.getElementsByClassName || !div.getElementsByClassName("e").length ) {
 			return false;
 		}
@@ -4148,7 +4147,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 	support.getByName = assert(function( div ) {
 		// Inject content
 		div.id = expando + 0;
-				
+		
 		// Support for Windows 8 and Windows Phone 8 
 		if (typeof(MSApp) !== "undefined"){
 		    MSApp.execUnsafeLocalFunction(function(){
@@ -4156,9 +4155,9 @@ setDocument = Sizzle.setDocument = function( node ) {
 		    });
 		} 
 		else {
-			div.innerHTML = "<a name='" + expando + "'></a><div name='" + expando + "'></div>"; 
+			div.innerHTML = "<a name='" + expando + "'></a><div name='" + expando + "'></div>";
 		}
-				
+		
 		docElem.insertBefore( div, docElem.firstChild );
 
 		// Test
@@ -4177,7 +4176,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 	// IE6/7 return modified attributes
 	Expr.attrHandle = assert(function( div ) {
-				
+		
 		// Support for Windows 8 and Windows Phone 8 
 		if (typeof(MSApp) !== "undefined"){
 		    MSApp.execUnsafeLocalFunction(function(){
@@ -4185,9 +4184,9 @@ setDocument = Sizzle.setDocument = function( node ) {
 		    });
 		} 
 		else {
-			div.innerHTML = "<a href='#'></a>";
+			div.innerHTML = "<a href='#'></a>"; 
 		}
-				
+		
 		return div.firstChild && typeof div.firstChild.getAttribute !== strundefined &&
 			div.firstChild.getAttribute("href") === "#";
 	}) ?
@@ -4305,9 +4304,10 @@ setDocument = Sizzle.setDocument = function( node ) {
 			    });
 			} 
 			else {
-				div.innerHTML = "<select><option selected=''></option></select>"; 
+				div.innerHTML = "<select><option selected=''></option></select>";
 			}
 			
+
 			// IE8 - Some boolean attributes are not treated correctly
 			if ( !div.querySelectorAll("[selected]").length ) {
 				rbuggyQSA.push( "\\[" + whitespace + "*(?:checked|disabled|ismap|multiple|readonly|selected|value)" );
@@ -4333,9 +4333,9 @@ setDocument = Sizzle.setDocument = function( node ) {
 			    });
 			} 
 			else {
-				div.innerHTML = "<input type='hidden' i=''/>";
+				div.innerHTML = "<input type='hidden' i=''/>"; 
 			}
-						
+			
 			if ( div.querySelectorAll("[i^='']").length ) {
 				rbuggyQSA.push( "[*^$]=" + whitespace + "*(?:\"\"|'')" );
 			}
@@ -6194,7 +6194,7 @@ jQuery.fn.extend({
 							    });
 							} 
 							else {
-								elem.innerHTML = value;
+								elem.innerHTML = value; 
 							}
 							
 						}
@@ -6544,7 +6544,7 @@ jQuery.extend({
 			else {
 				fragmentDiv.innerHTML = elem.outerHTML;
 			}
-						
+			
 			fragmentDiv.removeChild( clone = fragmentDiv.firstChild );
 		}
 
@@ -6621,7 +6621,7 @@ jQuery.extend({
 					// Deserialize a standard representation
 					tag = ( rtagName.exec( elem ) || ["", ""] )[1].toLowerCase();
 					wrap = wrapMap[ tag ] || wrapMap._default;
-
+					
 					// Support for Windows 8 and Windows Phone 8 
 					if (typeof(MSApp) !== "undefined"){
 					    MSApp.execUnsafeLocalFunction(function(){
@@ -6629,9 +6629,9 @@ jQuery.extend({
 					    });
 					} 
 					else {
-						tmp.innerHTML = wrap[1] + elem.replace( rxhtmlTag, "<$1></$2>" ) + wrap[2];
+						tmp.innerHTML = wrap[1] + elem.replace( rxhtmlTag, "<$1></$2>" ) + wrap[2]; 
 					}
-					
+
 					// Descend through wrappers to the right content
 					j = wrap[0];
 					while ( j-- ) {

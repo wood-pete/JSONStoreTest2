@@ -6,9 +6,17 @@
 */
 
 #import <UIKit/UIKit.h>
-#import "TLFPublicDefinitions.h"
-#import "TLFApplication.h"
-#import "TLFCustomEvent.h"
+// IBM Worklight auto-generated comment added during project migration to Worklight 6.2:
+// Beginning with Worklight 6.2 the Tealeaf header files are no longer part of the Worklight SDK; they are
+// only added to the project by enabling the Tealeaf Optional Feature.  Worklight projects migrated from versions prior
+// to 6.2 will have import statements for these Tealeaf header files.  During project migration to 6.2 these 
+// import statements are commented out to prevent compilation errors resulting from referenceing files which have
+// been removed from the Worklight SDK.  If your application uses Tealeaf directly you will need to add the appropriate
+// header file imports based on the Tealeaf version you are using.  If your application does not use Tealeaf directly
+// you may remove commented out import statements and the setting of 'appClass' to the TLFApplication class below.
+// #import "TLFPublicDefinitions.h"
+// #import "TLFApplication.h"
+// #import "TLFCustomEvent.h"
 
 int main(int argc, char *argv[]) {
 

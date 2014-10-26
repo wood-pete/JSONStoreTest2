@@ -33,7 +33,7 @@
         <key>Key</key>
         <string>serverURL</string>
         <key>DefaultValue</key>
-        <string>http://192.168.1.88:10080/JSONStoreTest2/</string>
+        <string>http://petesworklight.cloudapp.net:9080/worklight_1/</string>
         <key>KeyboardType</key>
         <string>Alphabet</string>
       </dict>

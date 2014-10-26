@@ -46,6 +46,7 @@
 
 //Call this initializer only
 -(WLDeviceAuthManager *) init;
+-(NSString *) createUUID;
 -(NSString *) getWLUniqueDeviceId;
 
 /**

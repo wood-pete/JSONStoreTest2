@@ -4,7 +4,7 @@
 			 US Government Users Restricted Rights - Use, duplication or
              disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
 <!-- Attribute "id" must be identical to application folder name -->
-<application xmlns="http://www.worklight.com/application-descriptor" id="Test2" platformVersion="6.1.0.01.20140427-1450">
+<application xmlns="http://www.worklight.com/application-descriptor" id="Test2" platformVersion="6.2.0.00.20140825-1637">
     <displayName>Test2</displayName>
     <description>Test2</description>
     <author>
@@ -18,7 +18,7 @@
         <JSONStore/>
     </features>
     <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
-    <iphone bundleId="com.Test2" version="1.0">
+    <iphone applicationId="Test2" bundleId="com.Test2" version="1.0">
         <worklightSettings include="true"/>
         <security>
             <encryptWebResources enabled="false"/>
@@ -31,6 +31,8 @@
             <encryptWebResources enabled="false"/>
             <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
             <publicSigningKey>Replace this text with the actual public signing key of the certificate used to sign the APK, available by using the 'Extract public signing key' wizard.</publicSigningKey>
+            <packageName>com.Test2</packageName>
         </security>
     </android>
+    <desktopBrowser cacheManifest="no-use"/>
 </application>
