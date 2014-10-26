@@ -4,6 +4,7 @@
         <wb-resource deploy-path="/" source-path="/apps/Test2/common"/>
         <wb-resource deploy-path="/" source-path="/apps/Test2/android"/>
         <wb-resource deploy-path="/" source-path="/apps/Test2/iphone"/>
+        <wb-resource deploy-path="/" source-path="/apps/Test2/desktopbrowser"/>
         <property name="context-root" value="JSONStoreTest2"/>
     </wb-module>
 </project-modules>

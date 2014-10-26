@@ -22,8 +22,8 @@
    "APP_VERSION": "1.0",
    "ENVIRONMENT": "android",
    "LOGIN_DISPLAY_TYPE": "embedded",
-   "WORKLIGHT_NATIVE_VERSION": "154549862-2746434164",
-   "WORKLIGHT_PLATFORM_VERSION": "6.1.0.01.20140427-1450",
+   "WORKLIGHT_NATIVE_VERSION": "1356647314",
+   "WORKLIGHT_PLATFORM_VERSION": "6.2.0.00.20140825-1637",
    "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/Test2\/android\/"
 };</script>
 		<script src="worklight/cordova.js"></script>
@@ -36,7 +36,8 @@
 </script>
     </head>
     <body onload="onBodyLoad()" style="display: none;">
-        <label id="mylabel">My Database Tests</label>
+AppStore Update 2
+	<label id="mylabel">My Database Tests</label>
         <br>
         <button onClick="javascript:myremovetable();" type="button">RemoveDB</button>
 	<button onClick="javascript:myinitdb();" type="button">CreateDB</button>
@@ -54,6 +55,8 @@
         <input id="mysearchbox" type="text" value="hello">
 	<button onClick="javascript:mydisplayquerydata();" type="button">Display
 		Data Subset</button>
+        <br>
+        <button onClick="javascript:myinvokeadapter();" type="button">Invoke Adapter</button>
         <br>
         <div id="mylogarea" style="width: 100%; height: 200px; font-size: 10px; overflow-y: scroll; background-color: #ccc; overflow: scroll; -webkit-overflow-scrolling: touch;">
 		This is the log..</div>
