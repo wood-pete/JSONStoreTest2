@@ -11,10 +11,13 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int push=0x7f020001;
-        public static final int settings=0x7f020002;
-        public static final int splash=0x7f020003;
+        public static final int ic_action_next_item=0x7f020000;
+        public static final int ic_action_previous_item=0x7f020001;
+        public static final int ic_action_remove=0x7f020002;
+        public static final int icon=0x7f020003;
+        public static final int push=0x7f020004;
+        public static final int settings=0x7f020005;
+        public static final int splash=0x7f020006;
     }
     public static final class string {
         public static final int OKTitleWLServerUrl=0x7f040009;
@@ -55,19 +58,6 @@ public final class R {
         public static final int push_notification_title=0x7f040001;
         public static final int serverAddress=0x7f04000c;
         public static final int summaryWLServerUrl=0x7f040006;
-        /**  Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
- Test Resources Checksum 
-         */
-        public static final int testResourcesChecksumErrorMessage=0x7f040014;
         public static final int titleInvalidWLServerUrl=0x7f04000a;
         public static final int titleWLServerUrl=0x7f040007;
         public static final int wlAppIdTitle=0x7f04000f;
@@ -85,6 +75,20 @@ public final class R {
   Settings Screen: Web Resources category 
          */
         public static final int wlWebResourcesCategory=0x7f04000e;
+        /**  Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+ Worklight initialization errors 
+         */
+        public static final int worklightInitInternalError=0x7f040014;
+        public static final int worklightInitNotEnoughSpace=0x7f040015;
         /**   Settings Screen strings 
   Settings Screen strings 
   Settings Screen strings 
